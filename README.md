@@ -1,11 +1,12 @@
 # filecache
+
 ## A simple file cache of pure Golang
 
 ## Install
 
 First, you need to install the package:
 
-```
+```sh
 go get -u github.com/ucwong/filecache
 ```
 
@@ -20,7 +21,7 @@ the `MaxItems` field to be > 0.
 Let's start with a basic example; we'll create a basic cache and give it a
 maximum item size of 128M:
 
-```
+```go
 import (
       "github.com/ucwong/filecache"
 )
